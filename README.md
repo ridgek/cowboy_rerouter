@@ -1,7 +1,22 @@
 Cowboy Rerouter
-======
+===============
+
+[![Build Status](https://travis-ci.org/ridgek/cowboy_rerouter.png?branch=master)](https://travis-ci.org/ridgek/cowboy_rerouter)
+
 
 Cowboy Rerouter is a regular expression based router/dispatcher for Cowboy.
+
+Styled after the [Django URL dispatcher][1], it allows you to build complex
+URLs not possible with [cowboy_router][2].
+
+For the sake of simplicity it does not allow matching on hostnames, or
+contraint functions.
+
+Currently it has no support for reversing URLs, but this may be added in the
+future.
+
+[1]: https://docs.djangoproject.com/en/dev/topics/http/urls/
+[2]: http://ninenines.eu/docs/en/cowboy/HEAD/guide/routing/
 
 Usage
 -----
